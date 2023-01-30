@@ -308,8 +308,8 @@
     font-size: 2.5rem;
   }
   
-  .main__content h2 {
-    font-size: 4rem;
+  .main__container h2 {
+    font-size: 3rem;
     background: rgb(105, 123, 205); /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
@@ -326,15 +326,23 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    text-align: center;
   }
   
-  .main__content p {
+  .main__container p1 {
     color: #131313;
     margin-top: 1rem;
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
   }
-
+  .main__container p2 {
+    color: #131313;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: left;
+  }
   .main__content ul {
     color: #131313;
     list-style: disc;
@@ -513,33 +521,33 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right,#DACEAF 0%, rgb(105, 123, 205) 50%, #4E57AA 100%);
     transition: 0.3s ease-in;
   }
   
   .services__card:nth-child(2) {
-    background: #1fa2ff; /* fallback for old browsers */
+    background: #4E57AA; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff
+      #DACEAF,
+      #4E57AA,
+      #4E57AA
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff
+      #DACEAF,
+      rgb(105, 123, 205),
+      #4E57AA
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   
   .services__card:nth-child(3) {
     background-image: linear-gradient(
       -225deg,
-      #231557 0%,
-      #44107a 29%,
-      #ff1361 67%,
-      #fff800 100%
+      rgb(105, 123, 205) 0%,
+      rgb(80, 99, 182) 29%,
+      rgb(105, 123, 205) 67%,
+      #DACEAF 100%
     );
   }
   
@@ -565,7 +573,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #131313;
+    background: #fff;
     font-size: 1rem;
   }
   
