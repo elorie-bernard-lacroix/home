@@ -227,7 +227,7 @@
   .hero__heading1 {
     text-align: left;
     font-size: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: rgb(105, 123, 205);
   }
 
@@ -295,17 +295,19 @@
     color: #fff;
     width: 100%;
   }
+
   
-  .main__content h1 {
+  .main__container h1 {
     background-color: #fff;
-    background-image: linear-gradient(to right, rgb(105, 123, 205) 0%, #DACEAF 100%);
+    background-image: linear-gradient(to right, rgb(105, 123, 205) 0%, rgb(105, 123, 205) 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
+    margin-top: 2.4rem;
+    margin-bottom: 0.7rem;
+    font-size: 2.4rem;
   }
   
   .main__container h2 {
@@ -328,6 +330,17 @@
     -moz-text-fill-color: transparent;
     text-align: center;
   }
+
+  .main__container h3 {
+    background-color: #141414;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+  }
   
   .main__container p1 {
     color: #131313;
@@ -343,7 +356,7 @@
     font-weight: 100;
     text-align: left;
   }
-  .main__content ul {
+  .main__container ul {
     color: #131313;
     list-style: disc;
     margin-top: 1.5rem;
@@ -351,11 +364,19 @@
     font-weight: 20;
     line-height: 26pt;
   }
+
+  .main__certifications {
+    padding: 15pt;
+  }
+
+  .main__experiences {
+    padding: 15pt;
+  }
   
   .main__btn {
     font-size: 1.8rem;
     background: rgb(105, 123, 205);
-    background: -webkit-linear-gradient(to right, #DACEAF, #fd1d1d, #833ab4);
+    background: -webkit-linear-gradient(to right, #b9b2a3, #b9b2a3, #b9b2a3);
     background: linear-gradient(to right, rgb(105, 123, 205));
     padding: 20px 60px;
     border: none;
@@ -396,9 +417,7 @@
   
   .main__img--container {
     text-align: center;
-  }
-  
-
+  } 
 
   .main__img--card {
     margin: 10px;
@@ -445,13 +464,14 @@
     }
   
     .main__content h2 {
-      font-size: 3rem;
+      font-size: 1rem;
     }
   
     .main__content p {
       margin-top: 1rem;
       font-size: 1.5rem;
     }
+    
   }
   
   @media screen and (max-width: 480px) {
@@ -517,39 +537,34 @@
     height: 425px;
     width: 300px;
     border-radius: 4px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right,#DACEAF 0%, rgb(105, 123, 205) 50%, #4E57AA 100%);
+    background-image: linear-gradient(to right,#98a3d4 0%, #98a3d4 100%);
     transition: 0.3s ease-in;
   }
-  
-  .services__card:nth-child(2) {
-    background: #4E57AA; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #DACEAF,
-      #4E57AA,
-      #4E57AA
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #DACEAF,
-      rgb(105, 123, 205),
-      #4E57AA
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-  
-  .services__card:nth-child(3) {
-    background-image: linear-gradient(
-      -225deg,
-      rgb(105, 123, 205) 0%,
-      rgb(80, 99, 182) 29%,
-      rgb(105, 123, 205) 67%,
-      #DACEAF 100%
-    );
-  }
+
+  .services__card a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.services__card a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.services__card a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.services__card a:active {
+    text-decoration: none;
+    color: #fff;
+}
   
   .services__card h2 {
     text-align: center;
