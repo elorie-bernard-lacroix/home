@@ -306,7 +306,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     margin-top: 2.4rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.5rem;
     font-size: 2.4rem;
   }
   
@@ -339,13 +339,13 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     margin-top: 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   
   .main__container p {
     color: #131313;
     margin-top: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 1000;
     text-align: left;
   }
@@ -355,19 +355,28 @@
   .main__container ul {
     color: #131313;
     list-style: disc;
-    margin-top: 1.5rem;
-    font-size: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
     font-weight: 20;
     line-height: 26pt;
-    padding-left: 3%;
+    padding-left: 4%;
   }
 
   .main__certifications {
+    padding-top: 100px;
+    margin-top: 10%;
     padding: 15pt;
+    align-content: start;
+    height: 1250px;
   }
 
   .main__experiences {
+    padding-top: 100px;
+    margin-top: 10%;
     padding: 15pt;
+    justify-content: top;
+    align-content: start;
+    height: 1250px;
   }
   
   .main__btn {
@@ -637,7 +646,7 @@
     align-items: center;
   }
 
-  .social__icons{
+  .contact__container social__icons{
     align-items: center;
     justify-content: center;
   }
@@ -664,10 +673,11 @@
     text-align: center;
   }
 
-  .contact__container p {
+  .contact__content p {
     font-size: 1rem;
     font-weight: 300;
     text-align: center;
+    color: #000;
 
 
   }
@@ -781,15 +791,21 @@
     justify-items: center;
     width: 90%;
     max-width: 1000px;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 0px auto;
   }
   
   .social__icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    border-spacing: 20px;
     align-items: center;
     justify-items: center;
-    width: 240px;
+    width: 1200px;
+  }
+
+  .social__icons a{
+    border: 100px;
+    padding: 30px;
   }
   
   .website__rights {
